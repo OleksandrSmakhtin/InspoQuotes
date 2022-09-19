@@ -64,14 +64,11 @@
 		447A436128D8DA6000D9DE66 /* InspoQuotes */ = {
 			isa = PBXGroup;
 			children = (
+				447A438028D9119800D9DE66 /* Application */,
 				447A437A28D8DFD700D9DE66 /* Model */,
 				447A437928D8DFD000D9DE66 /* View */,
 				447A437828D8DFC700D9DE66 /* Controller */,
-				447A436228D8DA6000D9DE66 /* AppDelegate.swift */,
-				447A436428D8DA6000D9DE66 /* SceneDelegate.swift */,
-				447A436828D8DA6000D9DE66 /* Main.storyboard */,
-				447A436B28D8DA6100D9DE66 /* Assets.xcassets */,
-				447A436D28D8DA6100D9DE66 /* LaunchScreen.storyboard */,
+				447A438128D912B800D9DE66 /* Resouces */,
 				447A437028D8DA6100D9DE66 /* Info.plist */,
 			);
 			path = InspoQuotes;
@@ -88,6 +85,8 @@
 		447A437928D8DFD000D9DE66 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				447A436828D8DA6000D9DE66 /* Main.storyboard */,
+				447A436D28D8DA6100D9DE66 /* LaunchScreen.storyboard */,
 				447A437628D8DE0F00D9DE66 /* QuoteCell.swift */,
 			);
 			path = View;
@@ -107,6 +106,23 @@
 				447A437E28D8EA6800D9DE66 /* StoreKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		447A438028D9119800D9DE66 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				447A436228D8DA6000D9DE66 /* AppDelegate.swift */,
+				447A436428D8DA6000D9DE66 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		447A438128D912B800D9DE66 /* Resouces */ = {
+			isa = PBXGroup;
+			children = (
+				447A436B28D8DA6100D9DE66 /* Assets.xcassets */,
+			);
+			path = Resouces;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
